@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Monitoramento Ar-Condicionado</title>
+</head>
+
+<body>
+
+    <style>
+        @font-face {
+            font-family: 'Font-Principal';
+            src: url('./font/AR\ Techni.ttf');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+
+    <style>
+        @font-face {
+            font-family: 'Font-ar';
+            src: url('./font/digital-7.ttf');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+
+    <header>
+
+        <h1>Central de Monitoramento</h1>
+
+    </header>
+
+    <main>
+
+        <h2>Este é o sistema de monitoramento dos ares-condicionados do prédio residencial <span
+                style="color: rgb(145, 194, 194); text-decoration: underline;">Márcia Cecília</span></h2>
+
+        <ul>
+            <li>Total de apartamentos com ares-condicionados: 9</li>
+            <li>Total de andares do prédio: 2</li>
+            <li></li>
+            <li></li>
+        </ul>
+
+        <div class="legendas">
+            <h3>Legendas:</h3>
+
+            <div class="quadrados">
+                <div class="ligado"></div>
+                <div class="desligado"></div>
+                <div class="manutençao"></div>
+
+            </div>
+            <div class="leg-text">
+                <p id="lig">Ligado</p>
+                <p id="des">Desligado</p>
+                <p id="man">Manutenção</p>
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <div class="ares-1">
+        <div class="ar-1">
+
+            <div class="card">
+                <div class="card-inner">
+
+                    <div class="card-front"
+                        style="background: linear-gradient(317.48deg, green 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="./img/ar-consul.jpeg" alt="">
+                        <h1>Apartamento 1</h1>
+                    </div>
+
+                    <div class="card-back"
+                        style="background: linear-gradient(317.48deg, green 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <h1>Ar-condicionado Consul</h1>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="ar-2">
+            <div class="card">
+                <div class="card-inner">
+
+                    <div class="card-front"
+                        style="background: linear-gradient(317.48deg, green 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="./img/ar-consul.jpeg"  alt="">
+                        <h1>Apartamento 2</h1>
+                    </div>
+
+                    <div class="card-back"
+                        style="background: linear-gradient(317.48deg, green 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <h1>Ar-condicionado Consul</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="ar-3">
+            <div class="card">
+                <div class="card-inner">
+
+                    <div class="card-front"
+                        style="background: linear-gradient(317.48deg, red 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="./img/ar-lg.jpeg" alt="">
+                        <h1>Apartamento 3</h1>
+                    </div>
+
+                    <div class="card-back"
+                        style="background: linear-gradient(317.48deg, red 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <h1>Ar-condicionado LG</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="info" id="inf1">
+        <ul>
+            <li>Status: Ligado</li>
+            <li>Temperatura: 22°</li>
+            <li>Responsável: José</li>
+        </ul>
+    </div>
+
+    <div class="info" id="inf2">
+        <ul>
+            <li>Status: Ligado</li>
+            <li>Temperatura: 18°</li>
+            <li>Responsável: Maria</li>
+        </ul>
+    </div>
+
+    <div class="info" id="inf3">
+        <ul>
+            <li>Status: Desligado</li>
+            <li>Temperatura: -</li>
+            <li>Responsável: Carlos</li>
+        </ul>
+    </div>
+
+    <div class="ares-2">
+        <div class="ar-1">
+
+            <div class="card">
+                <div class="card-inner">
+
+                    <div class="card-front"
+                        style="background: linear-gradient(317.48deg, red 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="./img/ar-lg.jpeg" alt="">
+                        <h1>Apartamento 4</h1>
+                    </div>
+
+                    <div class="card-back"
+                        style="background: linear-gradient(317.48deg, red 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <h1>Ar-condicionado LG</h1>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="ar-2">
+            <div class="card">
+                <div class="card-inner">
+
+                    <div class="card-front"
+                        style="background: linear-gradient(317.48deg, orange 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="./img/ar-pana.jpeg" alt="">
+                        <h1>Apartamento 5</h1>
+                    </div>
+
+                    <div class="card-back"
+                        style="background: linear-gradient(317.48deg, orange 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <h1>Ar-condicionado PANASONIC</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="ar-3">
+            <div class="card">
+                <div class="card-inner">
+
+                    <div class="card-front"
+                        style="background: linear-gradient(317.48deg, green 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="./img/ar-fuji.jpeg" alt="">
+                        <h1>Apartamento 6</h1>
+                    </div>
+
+                    <div class="card-back"
+                        style="background: linear-gradient(317.48deg, green 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <h1>Ar-condicionado Fujitsu</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="info" id="inf4">
+        <ul>
+            <li>Status: Desligado</li>
+            <li>Temperatura: -</li>
+            <li>Responsável: Álvaro</li>
+        </ul>
+    </div>
+
+    <div class="info" id="inf5">
+        <ul>
+            <li>Status: Manutenção</li>
+            <li>Temperatura: -</li>
+            <li>Responsável: Kirla</li>
+        </ul>
+    </div>
+
+    <div class="info" id="inf6">
+        <ul>
+            <li>Status: Ligado</li>
+            <li>Temperatura: 16°</li>
+            <li>Responsável: Marta</li>
+        </ul>
+    </div>
+
+    <div class="ares-3">
+        <div class="ar-1">
+
+            <div class="card">
+                <div class="card-inner">
+
+                    <div class="card-front"
+                        style="background: linear-gradient(317.48deg, orange 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="./img/ar-fuji.jpeg" alt="">
+                        <h1>Apartamento 7</h1>
+                    </div>
+
+                    <div class="card-back"
+                        style="background: linear-gradient(317.48deg, orange 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <h1>Ar-condicionado Fujitsu</h1>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="ar-2">
+            <div class="card">
+                <div class="card-inner">
+
+                    <div class="card-front"
+                        style="background: linear-gradient(317.48deg, red 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="./img/ar-lg.jpeg" alt="">
+                        <h1>Apartamento 8</h1>
+                    </div>
+
+                    <div class="card-back"
+                        style="background: linear-gradient(317.48deg, red 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <h1>Ar-condicionado LG</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="ar-3">
+            <div class="card">
+                <div class="card-inner">
+
+                    <div class="card-front"
+                        style="background: linear-gradient(317.48deg, orange 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="./img/ar-pana.jpeg" alt="">
+                        <h1>Apartamento 9</h1>
+                    </div>
+
+                    <div class="card-back"
+                        style="background: linear-gradient(317.48deg, orange 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <h1>Ar-condicionado PANASONIC</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="info" id="inf7">
+        <ul>
+            <li>Status: Manutenção</li>
+            <li>Temperatura: -</li>
+            <li>Responsável: Joyce</li>
+        </ul>
+    </div>
+
+    <div class="info" id="inf8">
+        <ul>
+            <li>Status: Desligado</li>
+            <li>Temperatura: -</li>
+            <li>Responsável: Beatriz</li>
+        </ul>
+    </div>
+
+    <div class="info" id="inf9">
+        <ul>
+            <li>Status:Manutenção</li>
+            <li>Temperatura: -</li>
+            <li>Responsável: Carol</li>
+        </ul>
+    </div>
+
+
+
+
+</body>
+
+</html>
